@@ -1,10 +1,11 @@
 import Link from "next/link";
 import { ModeToggle } from "./toggle";
 import { Menu } from "lucide-react";
+import { ActiveLink } from "./Active";
 
 const NavBar = () => {
   const defaultStyles =
-    "text-black transition-colors duration-200 hover:text-[#FD6F00]  dark:text-white dark:hover:text-[#FD6F00]";
+    "transition-colors duration-200 hover:text-[#FD6F00]  dark:text-white dark:hover:text-[#FD6F00]";
 
   return (
     <div className="bg-[#EFE9E3] dark:bg-[#1E1E1E] text-gray-800 dark:text-white flex justify-between items-center px-4 py-4 rounded-lg">
@@ -12,21 +13,46 @@ const NavBar = () => {
         LOGO
       </h1>
       <div className="flex gap-4 max-md:hidden font-medium ">
-        <Link className={`${defaultStyles}`} href="">
+        <ActiveLink
+          activeClassName={`${defaultStyles}`}
+          inactiveClassName="text-black"
+          exact={false}
+          href="/"
+        >
           Home
-        </Link>
-        <Link className={`${defaultStyles}`} href="/">
+        </ActiveLink>
+        <ActiveLink
+          activeClassName={`${defaultStyles}`}
+          inactiveClassName="text-black"
+          exact={false}
+          href="/"
+        >
           Services
-        </Link>
-        <Link className={`${defaultStyles}`} href="/">
+        </ActiveLink>
+        <ActiveLink
+          activeClassName={`${defaultStyles}`}
+          inactiveClassName="text-black"
+          exact={false}
+          href="/"
+        >
           About Me
-        </Link>
-        <Link className={`${defaultStyles}`} href="/">
+        </ActiveLink>
+        <ActiveLink
+          activeClassName={`${defaultStyles}`}
+          inactiveClassName="text-black"
+          exact={false}
+          href="/"
+        >
           Portfolio
-        </Link>
-        <Link className={`${defaultStyles}`} href="/">
+        </ActiveLink>
+        <ActiveLink
+          activeClassName={`${defaultStyles}`}
+          inactiveClassName="text-black"
+          exact={false}
+          href="/"
+        >
           Contact
-        </Link>
+        </ActiveLink>
       </div>
       <div className="flex gap-4 items-center">
         <ModeToggle />
