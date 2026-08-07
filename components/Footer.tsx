@@ -13,7 +13,7 @@ const Footer = () => {
       <h1 className="bg-gradient-to-r from-amber-600 to-red-600 bg-clip-text text-transparent text-2xl font-medium mt-4 mb-4">
         LOGO
       </h1>
-      <div className="flex gap-4">
+      <div className="flex flex-wrap gap-4">
         <Link className={`${defaultStyles}`} href="/">
           Home
         </Link>
@@ -27,7 +27,7 @@ const Footer = () => {
           Portfolio
         </Link>
         <Link className={`${defaultStyles}`} href="/">
-          About Me
+          Contact
         </Link>
       </div>
       <div className="flex gap-8 mt-4 mb-8">

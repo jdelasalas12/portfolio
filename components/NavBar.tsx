@@ -25,7 +25,7 @@ const NavBar = () => {
           Portfolio
         </Link>
         <Link className={`${defaultStyles}`} href="/">
-          About Me
+          Contact
         </Link>
       </div>
       <div className="flex gap-4 items-center">
