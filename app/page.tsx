@@ -1,5 +1,7 @@
 import Image from "next/image";
 import ContactForm from "./components/ContactForm";
+import HeroPage from "./components/HeroPage";
+import MarqueePage from "./components/MarqueePage";
 
 const projects = [
   {
@@ -10,7 +12,7 @@ const projects = [
       "A complete e-commerce platform with product management, authentication, shopping cart, checkout and an admin dashboard.",
     technologies: ["Next.js", "TypeScript", "PostgreSQL", "Stripe"],
     image: "/project-1.jpg",
-    link: "#",
+    link: "https://shop-n-free.netlify.app/",
   },
   {
     number: "02",
@@ -20,17 +22,17 @@ const projects = [
       "A modern analytics dashboard that transforms complex business data into simple, actionable insights.",
     technologies: ["Next.js", "React", "Tailwind", "Chart.js"],
     image: "/project-2.jpg",
-    link: "#",
+    link: "https://saspage.netlify.app/",
   },
   {
     number: "03",
-    title: "Booking Platform",
+    title: "Tailoring Web",
     category: "WEB DEVELOPMENT",
     description:
       "A responsive booking platform with availability management, customer accounts and an intuitive reservation experience.",
     technologies: ["React", "Node.js", "MongoDB", "Express"],
     image: "/project-3.jpg",
-    link: "#",
+    link: "https://mendys-tailoring.netlify.app/",
   },
 ];
 
@@ -83,6 +85,8 @@ const experience = [
 export default function Home() {
   return (
     <main className="min-h-screen overflow-hidden bg-[#080808] text-[#f5f5f5]">
+      <HeroPage />
+      <MarqueePage />
       {/* WORK */}
       <section id="work" className="mx-auto max-w-7xl px-6 py-32 lg:px-8">
         <div className="mb-16 flex flex-col justify-between gap-6 md:flex-row md:items-end">
