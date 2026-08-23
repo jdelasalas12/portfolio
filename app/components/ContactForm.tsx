@@ -51,7 +51,7 @@ export default function ContactForm() {
   }
 
   return (
-    <form onSubmit={handleSubmit} className="mt-12 space-y-6">
+    <form onSubmit={handleSubmit} className="mt-12 space-y-6 overflow-x-hidden">
       <div className="grid gap-6 sm:grid-cols-2">
         <div>
           <label
