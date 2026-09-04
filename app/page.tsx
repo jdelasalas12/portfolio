@@ -290,57 +290,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      {/* CONTACT
-      <section id="contact" className="relative overflow-hidden">
-        <div className="pointer-events-none absolute left-1/2 top-1/2 h-[500px] w-[500px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#c8ff00]/[0.035] blur-[120px]" />
 
-        <div className="relative mx-auto max-w-7xl px-6 py-36 lg:px-8">
-          <p className="eyebrow mb-8">05 / Contact</p>
-
-          <h2 className="heading-xl max-w-5xl">
-            LET&apos;S MAKE
-            <br />
-            <span className="text-white/30">SOMETHING</span>
-            <br />
-            <span className="accent">GREAT.</span>
-          </h2>
-
-          <div className="mt-12 flex flex-col gap-8 sm:flex-row sm:items-center sm:justify-between">
-            <div>
-              <p className="text-sm text-white/35">
-                Have a project or opportunity?
-              </p>
-
-              <a
-                href="mailto:your@email.com"
-                className="mt-2 block text-xl font-medium transition hover:text-[#c8ff00] sm:text-2xl"
-              >
-                your@email.com
-              </a>
-            </div>
-
-            <div className="flex flex-wrap gap-3">
-              <a
-                href="https://github.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn-outline"
-              >
-                GitHub ↗
-              </a>
-
-              <a
-                href="https://linkedin.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn-outline"
-              >
-                LinkedIn ↗
-              </a>
-            </div>
-          </div>
-        </div>
-      </section> */}
       <section id="contact" className="relative overflow-hidden">
         <div className="pointer-events-none absolute left-1/2 top-1/2 h-[500px] w-[500px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#c8ff00]/[0.035] blur-[120px]" />
 
